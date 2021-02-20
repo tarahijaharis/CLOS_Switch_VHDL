@@ -1,0 +1,100 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do clos_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -2008 -work work {C:/Users/njobs/Desktop/PROJEKT/clos.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity clos
+# -- Compiling architecture arch_clos of clos
+# vcom -2008 -work work {C:/Users/njobs/Desktop/PROJEKT/switch_2x3.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity switch_2x3
+# -- Compiling architecture arch_switch_2x3 of switch_2x3
+# vcom -2008 -work work {C:/Users/njobs/Desktop/PROJEKT/switch_2x2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity switch_2x2
+# -- Compiling architecture arch_switch_2x2 of switch_2x2
+# vcom -2008 -work work {C:/Users/njobs/Desktop/PROJEKT/switch_3x2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity switch_3x2
+# -- Compiling architecture arch_switch_3x2 of switch_3x2
+# 
+vcom -reportprogress 300 -work work C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity switch_2x3_testbench
+# -- Compiling architecture arch_switch_2x3_testbench_testbench of switch_2x3_testbench
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(40): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(41): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(48): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(53): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x3_testbench.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+vcom -reportprogress 300 -work work C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity switch_3x2_testbench
+# -- Compiling architecture arch_switch_3x2_testbench of switch_3x2_testbench
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(37): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(39): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(40): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(41): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(42): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(51): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(52): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(53): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(54): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(55): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(56): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_3x2_testbench.vhd(57): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+vcom -reportprogress 300 -work work C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity switch_2x2_testbench
+# -- Compiling architecture arch_switch_2x2_testbench of switch_2x2_testbench
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(32): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(34): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(41): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(42): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Warning: [4] C:/Users/njobs/Desktop/PROJEKT/simulation/modelsim/switch_2x2_testbench.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
